@@ -53,5 +53,3 @@ console.log(segundoNumero)
 
 const soma = primeiroNumero + segundoNumero
 console.log(soma)
-
-const subratracao = 
