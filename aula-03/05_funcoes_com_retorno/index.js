@@ -18,10 +18,10 @@ const somaArrow = (numero1, numero2) => {
   return resultado
 }
 
-const valor = soma(10, 2)
+const valor = soma(10, 4)
 console.log(valor)
-console.log(somaSemParametros())
-console.log(somaSemParametros())
+// alert(somaSemParametros())
+// alert(somaSemParametros())
 
 // const somaParcial = soma(2, 3)
 // console.log(somaParcial)
