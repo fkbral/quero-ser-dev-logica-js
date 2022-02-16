@@ -1,8 +1,9 @@
-let opcaoEscolhida
+let opcaoEscolhida = 'S'
 
-do {
+while(opcaoEscolhida === 'S') {
   let usuario
 
+  // while(usuario === "" || usuario === null) {
   while(!usuario || usuario.length < 2) {
     usuario = prompt('Entre com o nome do usuário:')
   }
@@ -10,4 +11,7 @@ do {
   alert(usuario)
 
   opcaoEscolhida = prompt('Deseja continuar (S/N)').toUpperCase()
-} while(opcaoEscolhida === 'S')
+} 
+
+// falsy "", undefined, null
+// truthy "a", "abc", 10
