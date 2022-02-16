@@ -1,4 +1,4 @@
-function checaSeEhPrimo(numeroDeTeste) {
+export function checaSeEhPrimo(numeroDeTeste) {
   // if(numeroDeTeste % 2 === 0) {
   //   return false
   // }
@@ -18,8 +18,8 @@ function checaSeEhPrimo(numeroDeTeste) {
 
   let divisorDeTeste = 2
 
-  while (divisorDeTeste < numeroDeTeste/2) {
-    console.log(divisorDeTeste)
+  while (divisorDeTeste <= numeroDeTeste/2) {
+    // console.log(divisorDeTeste)
     if(numeroDeTeste % divisorDeTeste === 0) {
       return false
     }
@@ -28,5 +28,7 @@ function checaSeEhPrimo(numeroDeTeste) {
 
   return true
 }
+
+export const mensagem = "olá"
 
 console.log(checaSeEhPrimo(53))
