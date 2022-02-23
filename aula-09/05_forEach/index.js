@@ -10,9 +10,9 @@ const aluna = {
 function calculaMedia(notas) {
   let soma = 0
 
-  // for (let nota of notas) {
-  //   soma += nota
-  // }
+  for (let nota of notas) {
+    soma += nota
+  }
 
   notas.forEach((nota) => {
     soma += nota
